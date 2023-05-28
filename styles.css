@@ -14,6 +14,10 @@ div {
     border: .1px solid gray;
 }
 
-.pixel:hover {
+.pixel {
+    background-color: white;
+}
+
+.colored {
     background-color: gray;
 }
