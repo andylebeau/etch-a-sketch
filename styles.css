@@ -1,23 +1,13 @@
-#container {
+#grid-container {
     width: 960px;
-    height: auto;
+    height: 960px;
     display: flex;
-    border: none;
-    width: 320px;
     flex-wrap: wrap;
 }
 
-div {
+#pixel {
     box-sizing: border-box;
-    width: 20px;
-    height: 20px;
-    border: .1px solid gray;
-}
-
-.pixel {
-    background-color: white;
-}
-
-.colored {
-    background-color: gray;
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
 }
